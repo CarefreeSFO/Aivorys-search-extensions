@@ -1,0 +1,6 @@
+/* Minimal enhancements to the SearXNG interface when accessed via the Aivorys extension */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

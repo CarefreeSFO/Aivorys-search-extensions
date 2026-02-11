@@ -1,0 +1,94 @@
+{
+  "extensionName": {
+    "message": "Aivorys Search",
+    "description": "Extension display name"
+  },
+  "extensionDescription": {
+    "message": "Busca privada com Aivorys. Sem rastreamento, sem registros, sem perfis.",
+    "description": "Extension description for store listing"
+  },
+  "searchPlaceholder": {
+    "message": "Pesquisar com privacidade...",
+    "description": "Placeholder text in the search input"
+  },
+  "search": {
+    "message": "Pesquisar",
+    "description": "Search button label"
+  },
+  "searching": {
+    "message": "Pesquisando...",
+    "description": "Loading indicator text"
+  },
+  "noResults": {
+    "message": "Nenhum resultado encontrado.",
+    "description": "Message when search returns no results"
+  },
+  "searchError": {
+    "message": "Erro na pesquisa. Verifique a conex\u00e3o do servidor.",
+    "description": "Error message when search fails"
+  },
+  "settings": {
+    "message": "Configura\u00e7\u00f5es",
+    "description": "Settings button tooltip"
+  },
+  "settingsTitle": {
+    "message": "Configura\u00e7\u00f5es do Aivorys Search",
+    "description": "Options page title"
+  },
+  "settingsSubtitle": {
+    "message": "Configure sua experi\u00eancia de busca privada",
+    "description": "Options page subtitle"
+  },
+  "sectionSearch": {
+    "message": "Pesquisa",
+    "description": "Search settings section header"
+  },
+  "sectionAppearance": {
+    "message": "Apar\u00eancia",
+    "description": "Appearance settings section header"
+  },
+  "sectionBehavior": {
+    "message": "Comportamento",
+    "description": "Behavior settings section header"
+  },
+  "labelBackend": {
+    "message": "URL do servidor de busca",
+    "description": "Label for backend URL input"
+  },
+  "labelLanguage": {
+    "message": "Idioma",
+    "description": "Label for language selector"
+  },
+  "labelSafeSearch": {
+    "message": "Pesquisa segura",
+    "description": "Label for safe search selector"
+  },
+  "labelCategories": {
+    "message": "Categoria padr\u00e3o",
+    "description": "Label for default search category"
+  },
+  "labelTheme": {
+    "message": "Tema",
+    "description": "Label for theme selector"
+  },
+  "labelNewTab": {
+    "message": "Abrir resultados em p\u00e1gina completa (nova aba)",
+    "description": "Label for new tab toggle"
+  },
+  "save": {
+    "message": "Salvar configura\u00e7\u00f5es",
+    "description": "Save button text"
+  },
+  "saved": {
+    "message": "Configura\u00e7\u00f5es salvas.",
+    "description": "Confirmation after saving settings"
+  },
+  "resetDefaults": {
+    "message": "Restaurar padr\u00f5es",
+    "description": "Reset button text"
+  },
+  "privacyBadge": {
+    "message": "Sem rastreamento. Sem registros. Sua pesquisa.",
+    "description": "Privacy message in popup footer"
+  }
+}

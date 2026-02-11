@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="description" content="Aivorys Search - Private, ethical search. No tracking, no logs.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Aivorys">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Aivorys Search</title>
+</head>
+<body>
+  <div id="app">
+    <header class="header">
+      <h1 class="logo">Aivorys</h1>
+      <p class="tagline">Private search. No tracking.</p>
+    </header>
+
+    <main class="main">
+      <form id="search-form" class="search-form" role="search">
+        <div class="search-box">
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Search privately..."
+            autocomplete="off"
+            autofocus
+          >
+          <button type="submit" class="search-btn" aria-label="Search">
+            <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+
+      <div id="suggestions" class="suggestions hidden"></div>
+
+      <div id="results" class="results"></div>
+
+      <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Searching...</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>No tracking. No logs. No profiling.</p>
+      <p class="footer-links">
+        <a href="#" id="settings-link">Settings</a>
+        <span>&middot;</span>
+        <a href="https://aivorys.com" target="_blank" rel="noopener">About Aivorys</a>
+      </p>
+    </footer>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Settings</h2>
+          <button id="close-modal" class="close-btn" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="field">
+            <label for="pwa-backend">Search Backend</label>
+            <input type="url" id="pwa-backend" value="https://search.aivorysdev.com">
+          </div>
+          <div class="field">
+            <label for="pwa-language">Language</label>
+            <select id="pwa-language">
+              <option value="en">English</option>
+              <option value="es">Espa&ntilde;ol</option>
+              <option value="pt-BR">Portugu&ecirc;s (Brasil)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="pwa-safe">Safe Search</label>
+            <select id="pwa-safe">
+              <option value="0">Off</option>
+              <option value="1" selected>Moderate</option>
+              <option value="2">Strict</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="pwa-theme">Theme</label>
+            <select id="pwa-theme">
+              <option value="system">System</option>
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </div>
+          <button id="save-settings" class="btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

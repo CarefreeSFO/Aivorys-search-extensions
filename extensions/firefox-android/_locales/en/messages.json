@@ -1,0 +1,94 @@
+{
+  "extensionName": {
+    "message": "Aivorys Search",
+    "description": "Extension display name"
+  },
+  "extensionDescription": {
+    "message": "Privacy-first search powered by Aivorys. No tracking, no logs, no profiling.",
+    "description": "Extension description for store listing"
+  },
+  "searchPlaceholder": {
+    "message": "Search privately...",
+    "description": "Placeholder text in the search input"
+  },
+  "search": {
+    "message": "Search",
+    "description": "Search button label"
+  },
+  "searching": {
+    "message": "Searching...",
+    "description": "Loading indicator text"
+  },
+  "noResults": {
+    "message": "No results found.",
+    "description": "Message when search returns no results"
+  },
+  "searchError": {
+    "message": "Search error. Check your backend connection.",
+    "description": "Error message when search fails"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "Settings button tooltip"
+  },
+  "settingsTitle": {
+    "message": "Aivorys Search Settings",
+    "description": "Options page title"
+  },
+  "settingsSubtitle": {
+    "message": "Configure your private search experience",
+    "description": "Options page subtitle"
+  },
+  "sectionSearch": {
+    "message": "Search",
+    "description": "Search settings section header"
+  },
+  "sectionAppearance": {
+    "message": "Appearance",
+    "description": "Appearance settings section header"
+  },
+  "sectionBehavior": {
+    "message": "Behavior",
+    "description": "Behavior settings section header"
+  },
+  "labelBackend": {
+    "message": "Search Backend URL",
+    "description": "Label for backend URL input"
+  },
+  "labelLanguage": {
+    "message": "Language",
+    "description": "Label for language selector"
+  },
+  "labelSafeSearch": {
+    "message": "Safe Search",
+    "description": "Label for safe search selector"
+  },
+  "labelCategories": {
+    "message": "Default Category",
+    "description": "Label for default search category"
+  },
+  "labelTheme": {
+    "message": "Theme",
+    "description": "Label for theme selector"
+  },
+  "labelNewTab": {
+    "message": "Open search results in full page (new tab)",
+    "description": "Label for new tab toggle"
+  },
+  "save": {
+    "message": "Save Settings",
+    "description": "Save button text"
+  },
+  "saved": {
+    "message": "Settings saved.",
+    "description": "Confirmation after saving settings"
+  },
+  "resetDefaults": {
+    "message": "Reset to Defaults",
+    "description": "Reset button text"
+  },
+  "privacyBadge": {
+    "message": "No tracking. No logs. Your search.",
+    "description": "Privacy message in popup footer"
+  }
+}
